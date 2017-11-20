@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
+
+import { Button, ButtonToolbar, Navbar, Nav } from 'react-bootstrap';
+
 import './App.css';
 import {Register} from './modules';
 import {Login} from './modules';
 import {Dashboard} from './modules';
 import {Reset} from './modules';
-import { Button, ButtonToolbar, Navbar, Nav } from 'react-bootstrap';
+
 
 class App extends Component {
   constructor() {

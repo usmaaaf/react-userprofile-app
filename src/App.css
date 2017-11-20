@@ -54,3 +54,11 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+@media screen and (max-width: 660px) {
+  .nav-buttons{
+    display:flex;
+    flex-flow: row;
+    flex: 0 0 100px;
+  }
+}

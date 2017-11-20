@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
+
+import {Button, Image} from 'react-bootstrap'
+
 import Avatar from './avatar.png';
 import './dashboard.css';
-import {Button, Image} from 'react-bootstrap'
 
 export class Dashboard extends Component {
     constructor(){
@@ -45,7 +47,7 @@ export class Dashboard extends Component {
             <div className="Dashboard">
             <h2> Aapka Apna Dashboard</h2>  
             <div className="image-div">          
-                <Image id="avatar-img" src={Avatar} alt="avatar" circle responsive/>
+                <Image id="avatar-img" src={Avatar} alt="avatar" circle responsive />
             </div>
             <div>
             <form onSubmit={(e) => this.infoEdit(e)}>

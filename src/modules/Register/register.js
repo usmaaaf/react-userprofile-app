@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
-import uuid from 'uuid';
-import './register.css'
+
 import {Button} from 'react-bootstrap'
+import uuid from 'uuid';
+
+import './register.css'
 
 export class Register extends Component {
     constructor() {
